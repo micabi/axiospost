@@ -7,7 +7,7 @@
 </head>
 <body>
   <h2>axiosでpostしてphpで受け取り、結果をaxiosで読み取る</h2>
-  <p>結果はconsole.logでどうぞ。</p>
+  <p>結果はconsole.logでどうぞ。「テスト」と表示されていれば成功。</p>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="index.js"></script>
 </body>

@@ -1,6 +1,8 @@
 <?php
 
 // A: axiosのURLSearchParams形式で送られてきたpostの受け取りの方法
+// C: axiosのFormData()形式で送られてきたpostの受け取りの方法
+// ただし、FormData()形式で送られてきたものはphp.iniでの設定を適切にしないと文字化けする
 
 $test = $_POST['test']; // 通常通りphpでpostを受ける
 $action = $_POST['action'];
